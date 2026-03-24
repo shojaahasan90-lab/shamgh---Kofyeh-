@@ -1,65 +1,8 @@
-const MENU_DATA = {
-  breakfast: {
-    title: 'Breakfast',
-    subtitle: 'Elegant morning selections with authentic regional flavor.',
-    note: 'You can edit these items easily inside data.js before uploading to Netlify.',
-    items: [
-      { name: 'Shakshuka', price: '$11.99', desc: 'Eggs baked in rich tomato sauce with peppers, herbs, and warm bread.' },
-      { name: 'Falafel Plate', price: '$10.99', desc: 'Crispy falafel served with hummus, pickles, cucumber, tomato, and pita.' },
-      { name: 'Labneh Breakfast', price: '$9.50', desc: 'Creamy labneh finished with olive oil, zaatar, olives, and fresh vegetables.' },
-      { name: 'Foul Medames', price: '$9.99', desc: 'Slow-cooked fava beans with lemon, cumin, olive oil, and pita bread.' },
-      { name: 'Halloumi Toast', price: '$12.50', desc: 'Grilled halloumi with herbs, tomato, and sesame bread.' },
-      { name: 'Arabic Tea Set', price: '$4.00', desc: 'Fresh black tea with mint, served in traditional style.' }
-    ]
-  },
-  appetizers: {
-    title: 'Appetizers',
-    subtitle: 'Beautifully presented starters crafted to share.',
-    note: 'Perfect for the opening course or for sharing at the table.',
-    items: [
-      { name: 'Hummus', price: '$7.99', desc: 'Silky chickpea purée with tahini, olive oil, and warm pita.' },
-      { name: 'Baba Ghanoush', price: '$8.50', desc: 'Smoked eggplant dip with pomegranate and parsley.' },
-      { name: 'Stuffed Grape Leaves', price: '$7.50', desc: 'Rice-filled grape leaves with lemon and herbs.' },
-      { name: 'Kibbeh Bites', price: '$10.99', desc: 'Crispy bulgur shells stuffed with seasoned beef and onions.' },
-      { name: 'Fattoush', price: '$9.25', desc: 'Crisp vegetables, toasted pita, sumac, and pomegranate dressing.' },
-      { name: 'Lentil Soup', price: '$6.99', desc: 'Velvety lentil soup finished with cumin and lemon.' }
-    ]
-  },
-  main: {
-    title: 'Main Dishes',
-    subtitle: 'Signature entrées inspired by classic Middle Eastern cuisine.',
-    note: 'You can replace these sample dishes with your exact restaurant menu.',
-    items: [
-      { name: 'Mixed Grill Platter', price: '$24.99', desc: 'Kebab, shish tawook, and kofta served with rice and grilled vegetables.' },
-      { name: 'Lamb Mansaf', price: '$25.99', desc: 'Tender lamb over fragrant rice with jameed sauce and toasted nuts.' },
-      { name: 'Chicken Shawarma Plate', price: '$17.99', desc: 'Marinated sliced chicken with garlic sauce, rice, salad, and pita.' },
-      { name: 'Kofta Kebab', price: '$18.99', desc: 'Char-grilled minced beef skewers with tahini, onions, and rice.' },
-      { name: 'Maqluba', price: '$21.50', desc: 'Traditional layered rice with chicken, eggplant, cauliflower, and spices.' },
-      { name: 'Vegetarian Couscous', price: '$16.99', desc: 'Steamed couscous with seasonal vegetables and aromatic broth.' }
-    ]
-  },
-  dessert: {
-    title: 'Dessert',
-    subtitle: 'Traditional sweets with a refined finish.',
-    note: 'A warm ending inspired by beloved regional desserts.',
-    items: [
-      { name: 'Kunafa', price: '$8.99', desc: 'Crisp shredded pastry with melted cheese and orange blossom syrup.' },
-      { name: 'Baklava Selection', price: '$7.99', desc: 'Assorted filo pastries layered with nuts and honey syrup.' },
-      { name: 'Basbousa', price: '$6.99', desc: 'Semolina cake scented with rose water and topped with almonds.' },
-      { name: 'Rice Pudding', price: '$6.50', desc: 'Creamy pudding with cinnamon, pistachio, and orange blossom.' }
-    ]
-  },
-  drinks: {
-    title: 'Drinks',
-    subtitle: 'Refreshing beverages to complete the table experience.',
-    note: 'The drinks section is already added here as you requested.',
-    items: [
-      { name: 'Mint Lemonade', price: '$5.50', desc: 'Fresh lemon juice blended with mint and crushed ice.' },
-      { name: 'Arabic Coffee', price: '$3.99', desc: 'Traditional cardamom coffee served hot.' },
-      { name: 'Fresh Orange Juice', price: '$5.99', desc: 'Freshly squeezed orange juice.' },
-      { name: 'Pomegranate Cooler', price: '$6.50', desc: 'Pomegranate, citrus, and sparkling water.' },
-      { name: 'Ayran', price: '$3.50', desc: 'Classic chilled yogurt drink.' },
-      { name: 'Soft Drinks', price: '$2.50', desc: 'Cola, lemon-lime, and other chilled soft drinks.' }
-    ]
-  }
+
+window.menuData={
+ breakfast:{title:"Breakfast",subtitle:"Elegant morning selections with authentic regional flavor.",items:[["Foul Medames","Slow-cooked fava beans with olive oil, lemon, and warm bread.","$7.50"],["Falafel Plate","Crisp falafel served with tahini, pickles, and fresh vegetables.","$8.50"],["Shakshuka","Eggs simmered in rich tomato sauce with peppers and herbs.","$9.50"],["Cheese Manakeesh","Fresh-baked flatbread topped with melted cheese blend.","$6.50"]]},
+ appetizers:{title:"Appetizers",subtitle:"Beautifully presented starters crafted to share.",items:[["Hummus","Creamy chickpea dip finished with olive oil and paprika.","$6.50"],["Baba Ghanoush","Smoky eggplant spread with tahini and pomegranate.","$6.50"],["Stuffed Grape Leaves","Tender vine leaves filled with seasoned rice.","$7.50"],["Mixed Mezze","A refined sampler of signature cold starters.","$14.50"]]},
+ main:{title:"Main Dishes",subtitle:"Signature entrées inspired by classic Middle Eastern cuisine.",items:[["Mixed Grill","A premium selection of kabab, chicken, and lamb served with rice.","$24.50"],["Chicken Shawarma Plate","Marinated sliced chicken with garlic sauce and fries.","$16.50"],["Lamb Chops","Char-grilled lamb chops with aromatic rice.","$28.50"],["Mansaf","Traditional lamb served over rice with jameed sauce.","$25.50"]]},
+ dessert:{title:"Dessert",subtitle:"Traditional sweets with a refined finish.",items:[["Kunafa","Warm cheese pastry topped with fragrant syrup and pistachio.","$7.50"],["Baklava","Layered pastry with nuts and delicate syrup.","$5.50"],["Harissa","Semolina cake finished with coconut and syrup.","$5.50"],["Rice Pudding","Creamy milk pudding scented with rose water.","$4.50"]]},
+ drinks:{title:"Drinks",subtitle:"Refreshing beverages to complete the table experience.",items:[["Mint Lemonade","Fresh lemon blended with mint and ice.","$5.50"],["Arabic Coffee","Traditional cardamom coffee served hot.","$3.50"],["Fresh Orange Juice","Freshly squeezed orange juice.","$5.50"],["Soft Drinks","Assorted canned beverages.","$2.50"]]}
 };

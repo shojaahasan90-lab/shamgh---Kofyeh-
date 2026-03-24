@@ -1,15 +1,1 @@
-<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="gold" x1="30" y1="20" x2="180" y2="200" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F2DFBB"/>
-      <stop offset="0.5" stop-color="#D7B06A"/>
-      <stop offset="1" stop-color="#B27D31"/>
-    </linearGradient>
-  </defs>
-  <circle cx="110" cy="110" r="94" stroke="url(#gold)" stroke-width="6" opacity="0.9"/>
-  <circle cx="110" cy="110" r="78" stroke="url(#gold)" stroke-width="2" opacity="0.45"/>
-  <path d="M78 63H130C151 63 167 79 167 99C167 121 150 136 124 136H99V166H78V63ZM99 117H123C137 117 145 110 145 99C145 88 137 82 124 82H99V117Z" fill="url(#gold)"/>
-  <path d="M57 59L72 71V156L57 168V59Z" fill="url(#gold)" opacity="0.85"/>
-  <path d="M132 128L169 166H141L113 136L132 128Z" fill="url(#gold)" opacity="0.9"/>
-  <text x="110" y="196" text-anchor="middle" fill="url(#gold)" font-size="18" font-family="Arial, sans-serif" font-weight="700">Shmagh &amp; Kufiya</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#f1d4a2"/><stop offset="1" stop-color="#d7b26d"/></linearGradient></defs><path d="M24 40c18-12 54-12 72 0" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/><path d="M30 50c15 8 45 8 60 0" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/><path d="M38 61c9 7 35 7 44 0" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/><path d="M60 28v54" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/><circle cx="60" cy="88" r="10" fill="none" stroke="url(#g)" stroke-width="5"/></svg>
